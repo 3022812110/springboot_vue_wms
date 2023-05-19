@@ -29,6 +29,7 @@ public class CodeGenerator {
             String ipt = scanner.next();
             if (StringUtils.isNotBlank(ipt)) {
                 return ipt;
+//            sss    ;
             }
         }
         throw new MybatisPlusException("请输入正确的" + tip + "！");
